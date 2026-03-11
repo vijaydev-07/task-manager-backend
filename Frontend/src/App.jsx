@@ -8,7 +8,7 @@ function App() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
-  const API = "https://task-manager-3i9u.onrender.com/api/tasks";
+  const API = "http://localhost:5000/api/tasks";
 
   useEffect(() => {
     fetchTasks();
