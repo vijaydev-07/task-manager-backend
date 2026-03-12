@@ -39,30 +39,29 @@ The API allows users to create tasks, retrieve all tasks, update task status, an
 ## Project Structure
 
 ```
-task-manager-api
+task-manager-api/
 │
-├── config
+├── config/
 │   └── db.js                     # MongoDB database connection
 │
-├── Controllers
+├── Controllers/
 │   └── taskControllers.js        # Business logic for task CRUD operations
 │
-├── Models
+├── Models/
 │   └── Task.js                   # Mongoose schema for tasks
 │
-├── Routes
+├── Routes/
 │   └── taskRoutes.js             # API routes for tasks
 │
-├── node_modules                  # Installed project dependencies
+├── node_modules/                 # Installed project dependencies
 │
-├── .env                          # Environment variables (not committed to Git)
-├── .gitignore                    # Specifies files and folders Git should ignore
+├── .env                          # Environment variables
 │
 ├── package.json                  # Project dependencies and scripts
 ├── package-lock.json             # Dependency lock file
 │
-├── Server.js                     # Main server entry point
-└── README.md                     # Project documentation
+└── Server.js                     # Main server entry point
+
 ```
 
 ---
