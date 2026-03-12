@@ -1,7 +1,7 @@
-# Task Manager Backend API (Node.js, Express, MongoDB)
+# Task Manager API (Node.js, Express, MongoDB)
 
-A RESTful Task Manager API built using Node.js, Express.js, and MongoDB.
-This project demonstrates basic CRUD (Create, Read, Update, Delete) operations for managing tasks.
+A RESTful Task Manager API built using **Node.js, Express.js, and MongoDB**.
+This project demonstrates basic **CRUD (Create, Read, Update, Delete)** operations for managing tasks.
 
 The API allows users to create tasks, retrieve all tasks, update task status, and delete tasks. It follows a clean backend architecture with separate folders for configuration, models, and routes.
 
@@ -13,9 +13,9 @@ The API allows users to create tasks, retrieve all tasks, update task status, an
 • Get all tasks
 • Update task status (mark task as completed)
 • Delete tasks
-• RESTful API structure
+• RESTful API architecture
 • MongoDB database integration
-• Clean and scalable backend architecture
+• Clean and scalable backend structure
 
 ---
 
@@ -39,7 +39,7 @@ The API allows users to create tasks, retrieve all tasks, update task status, an
 ## Project Structure
 
 ```
-task-manager-backend
+task-manager-api
 │
 ├── config
 │   └── db.js                 # MongoDB database connection
@@ -64,13 +64,13 @@ task-manager-backend
 Clone the repository
 
 ```
-git clone https://github.com/vijaydev-07/task-manager-backend.git
+git clone https://github.com/vijaydev-07/task-manager-api.git
 ```
 
 Go to the project folder
 
 ```
-cd task-manager-backend
+cd task-manager-api
 ```
 
 Install dependencies
@@ -92,7 +92,7 @@ Start the server
 npm start
 ```
 
-The server will run on:
+The server will run on
 
 ```
 http://localhost:5000
