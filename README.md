@@ -7,6 +7,13 @@ The API allows users to create tasks, retrieve all tasks, update task status, an
 
 ---
 
+## 🌐 Live API Endpoint
+
+You can test this API live using the base URL provided below:
+Base URL: https://task-manager-backend-y38o.onrender.com
+
+---
+
 ## Features
 
 • Create new tasks
@@ -15,7 +22,6 @@ The API allows users to create tasks, retrieve all tasks, update task status, an
 • Delete tasks
 • RESTful API architecture
 • MongoDB database integration
-• Clean and scalable backend structure
 
 ---
 
